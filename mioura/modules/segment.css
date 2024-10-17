@@ -1,0 +1,31 @@
+/* based on Fomantic UI segment module, with just the parts extracted that we use. If you find any
+   unused rules here after refactoring, please remove them. */
+
+.ui.segment,
+.ui.segments,
+.ui.segments > .segment,
+.ui.horizontal.segments > .segment,
+.ui.attached.segment {
+  border-radius: 0;
+  box-shadow: var(--box-shadow-md);
+}
+
+
+.ui.grid.segment,
+.ui.segments:not(.horizontal) > .segment:first-child,
+.ui.segments:not(.horizontal) > .segment:last-child,
+.ui.segments:not(.horizontal) > .segment:only-child,
+.ui.segments:not(.horizontal) > .segment:has(~ .tw-hidden),
+.ui.horizontal.segments,
+.ui.horizontal.segments > .segment:first-child,
+.ui.horizontal.segments > .segment:last-child,
+.ui.attached.segment:has(+ .ui[class*="top attached"].header),
+.ui.attached.segment:has(+ .page.buttons),
+.ui.attached.segment:last-child,
+.ui.segment:has(+ .ui.segment:not(.attached)),
+.ui.attached.segment:has(+ .ui.modal),
+.ui[class*="top attached"].segment,
+.ui[class*="top attached"].segment:last-child,
+.ui.segment[class*="bottom attached"] {
+  border-radius: 0;
+}

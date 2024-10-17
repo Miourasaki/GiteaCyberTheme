@@ -1,0 +1,19 @@
+.ui.selection.dropdown,
+.ui.selection.dropdown .menu,
+.ui.label,
+.ui.input>input {
+  border-radius: 0;
+}
+
+.ui.button:hover,
+.ui.button {
+  border-radius: 0 !important;
+}
+
+.ui.button {
+  border: none;
+}
+
+.ui.small.button {
+  border: 1px solid var(--color-light-border);
+}

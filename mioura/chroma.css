@@ -1,0 +1,297 @@
+.chroma .bp {
+    color: #fabd2f
+}
+
+.chroma .c,.chroma .c1,.chroma .ch,.chroma .cm {
+    color: #777e94
+}
+
+.chroma .cp {
+    color: #8ec07c
+}
+
+.chroma .cpf {
+    color: #649bc4
+}
+
+.chroma .cs {
+    color: #9075cd
+}
+
+.chroma .dl {
+    color: #649bc4
+}
+
+.chroma .gd {
+    color: #fff;
+    background-color: #5f3737
+}
+
+.chroma .ge {
+    color: #ddee30
+}
+
+.chroma .gh {
+    color: #ffaa10
+}
+
+.chroma .gi {
+    color: #fff;
+    background-color: #3a523a
+}
+
+.chroma .go {
+    color: #777e94
+}
+
+.chroma .gp {
+    color: #ebdbb2
+}
+
+.chroma .gr {
+    color: #f43
+}
+
+.chroma .gs {
+    color: #ebdbb2
+}
+
+.chroma .gt {
+    color: #ff7540
+}
+
+.chroma .gu {
+    color: #b8bb26
+}
+
+.chroma .il {
+    color: #649bc4
+}
+
+.chroma .k {
+    color: #ff7540
+}
+
+.chroma .kc {
+    color: #649bc4
+}
+
+.chroma .kd {
+    color: #ff7540
+}
+
+.chroma .kn {
+    color: #ffaa10
+}
+
+.chroma .kp {
+    color: #5f8700
+}
+
+.chroma .kr {
+    color: #ff7540
+}
+
+.chroma .kt {
+    color: #ff7b72
+}
+
+.chroma .m,.chroma .mb,.chroma .mf,.chroma .mh,.chroma .mi,.chroma .mo {
+    color: #649bc4
+}
+
+.chroma .n {
+    color: #c9d1d9
+}
+
+.chroma .na,.chroma .nb {
+    color: #fabd2f
+}
+
+.chroma .nc {
+    color: #ffaa10
+}
+
+.chroma .nd {
+    color: #8ec07c
+}
+
+.chroma .ne {
+    color: #ff7540
+}
+
+.chroma .nf,.chroma .ni {
+    color: #fabd2f
+}
+
+.chroma .nl {
+    color: #ff7540
+}
+
+.chroma .nn {
+    color: #c9d1d9
+}
+
+.chroma .no {
+    color: #649bc4
+}
+
+.chroma .nt {
+    color: #ff7540
+}
+
+.chroma .nv {
+    color: #ebdbb2
+}
+
+.chroma .nx {
+    color: #b6bac5
+}
+
+.chroma .o {
+    color: #ff7540
+}
+
+.chroma .ow {
+    color: #5f8700
+}
+
+.chroma .p {
+    color: #d2d4db
+}
+
+.chroma .s,.chroma .s1,.chroma .s2 {
+    color: #b8bb26
+}
+
+.chroma .sa {
+    color: #ffaa10
+}
+
+.chroma .sb {
+    color: #b8bb26
+}
+
+.chroma .sc {
+    color: #ffaa10
+}
+
+.chroma .sd {
+    color: #b8bb26
+}
+
+.chroma .se {
+    color: #ff8540
+}
+
+.chroma .sh {
+    color: #b8bb26
+}
+
+.chroma .si {
+    color: #ffaa10
+}
+
+.chroma .sr {
+    color: #9075cd
+}
+
+.chroma .ss {
+    color: #ff8540
+}
+
+.chroma .sx {
+    color: #ffaa10
+}
+
+.chroma .vc,.chroma .vg,.chroma .vi {
+    color: #649bee
+}
+
+.chroma .w {
+    color: #7f8699
+}
+
+.CodeMirror.cm-s-default .cm-property,.CodeMirror.cm-s-paper .cm-property {
+    color: #a0cc75
+}
+
+.CodeMirror.cm-s-default .cm-header,.CodeMirror.cm-s-paper .cm-header {
+    color: #9daccc
+}
+
+.CodeMirror.cm-s-default .cm-quote,.CodeMirror.cm-s-paper .cm-quote {
+    color: #090
+}
+
+.CodeMirror.cm-s-default .cm-keyword,.CodeMirror.cm-s-paper .cm-keyword {
+    color: #cc8a61
+}
+
+.CodeMirror.cm-s-default .cm-atom,.CodeMirror.cm-s-paper .cm-atom {
+    color: #ef5e77
+}
+
+.CodeMirror.cm-s-default .cm-number,.CodeMirror.cm-s-paper .cm-number {
+    color: #ff5656
+}
+
+.CodeMirror.cm-s-default .cm-def,.CodeMirror.cm-s-paper .cm-def {
+    color: #e4e4e4
+}
+
+.CodeMirror.cm-s-default .cm-variable-2,.CodeMirror.cm-s-paper .cm-variable-2 {
+    color: #00bdbf
+}
+
+.CodeMirror.cm-s-default .cm-variable-3,.CodeMirror.cm-s-paper .cm-variable-3 {
+    color: #085
+}
+
+.CodeMirror.cm-s-default .cm-comment,.CodeMirror.cm-s-paper .cm-comment {
+    color: #8e9ab3
+}
+
+.CodeMirror.cm-s-default .cm-string,.CodeMirror.cm-s-paper .cm-string {
+    color: #a77272
+}
+
+.CodeMirror.cm-s-default .cm-string-2,.CodeMirror.cm-s-paper .cm-string-2 {
+    color: #f50
+}
+
+.CodeMirror.cm-s-default .cm-meta,.CodeMirror.cm-s-paper .cm-meta,.CodeMirror.cm-s-default .cm-qualifier,.CodeMirror.cm-s-paper .cm-qualifier {
+    color: #ffb176
+}
+
+.CodeMirror.cm-s-default .cm-builtin,.CodeMirror.cm-s-paper .cm-builtin {
+    color: #b7c951
+}
+
+.CodeMirror.cm-s-default .cm-bracket,.CodeMirror.cm-s-paper .cm-bracket {
+    color: #997
+}
+
+.CodeMirror.cm-s-default .cm-tag,.CodeMirror.cm-s-paper .cm-tag {
+    color: #f1d273
+}
+
+.CodeMirror.cm-s-default .cm-attribute,.CodeMirror.cm-s-paper .cm-attribute {
+    color: #bfcc70
+}
+
+.CodeMirror.cm-s-default .cm-hr,.CodeMirror.cm-s-paper .cm-hr {
+    color: #999
+}
+
+.CodeMirror.cm-s-default .cm-url,.CodeMirror.cm-s-paper .cm-url {
+    color: #c5cfd0
+}
+
+.CodeMirror.cm-s-default .cm-link,.CodeMirror.cm-s-paper .cm-link {
+    color: #d8c792
+}
+
+.CodeMirror.cm-s-default .cm-error,.CodeMirror.cm-s-paper .cm-error {
+    color: #dbdbeb
+}

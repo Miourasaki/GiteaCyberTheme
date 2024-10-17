@@ -1,0 +1,39 @@
+:root {
+    /* fonts */
+    --fonts-proportional: "Noto Sans SC", -apple-system, "Segoe UI", system-ui, Roboto, "Helvetica Neue", Arial;
+    --fonts-monospace: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace, var(--fonts-emoji);
+    --fonts-emoji: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Twemoji Mozilla";
+    /* font weights - use between 400 and 600 for general purposes. Avoid 700 as it is perceived too bold */
+    --font-weight-light: 300;
+    --font-weight-normal: 300;
+    --font-weight-medium: 300;
+    --font-weight-semibold: 300;
+    --font-weight-bold: 300;
+
+    --border-radius: 0;
+    --border-radius-medium: 0;
+    --border-radius-full: 99999px;
+
+    /* box shadow */
+    --box-shadow-md: 0 4px 8px 4px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)
+}
+
+
+*:focus-visible {
+    outline: 1px dotted wheat;
+}
+
+img.ui.avatar, .ui.avatar img, .ui.avatar svg {
+    border-radius: 100%;
+}
+
+.navbar-right .text.tw-flex.tw-items-center img {
+    width: 28px;
+    height: 28px;
+    transform: scale(1.1);
+    box-shadow: var(--box-shadow-md);
+}
+
+.svg {
+    color: var(--color-primary-light-1);
+}

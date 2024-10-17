@@ -1,0 +1,8 @@
+/* based on Fomantic UI message module, with just the parts extracted that we use. If you find any
+   unused rules here after refactoring, please remove them. */
+
+.ui.message {
+  font-family: "Poppins", serif;
+  box-shadow: var(--box-shadow-md);
+  border-radius: 0;
+}
